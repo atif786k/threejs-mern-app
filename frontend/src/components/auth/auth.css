@@ -1,0 +1,84 @@
+/* Login and Signin page styling :  */
+.login-container, .signin-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+  }
+  .login-form, .signin-form {
+    padding: 24px;
+    border: 1px solid #191919;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    color: whitesmoke;
+  }
+  .login-title, .signin-title {
+    text-align: center;
+  }
+  .login-title h2, .signin-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .login-title h4, .signin-title h4{
+      color: #c0c0c3;
+  }
+  
+  .input-div {
+    display: flex;
+    align-items: center;
+  }
+  .login-input-fields, .signin-input-fields{
+    width: 100%;
+    height: 45px;
+    line-height: 30px;
+    padding: 0 5rem;
+    padding-left: 3rem;
+    border-radius: 8px;
+    outline: none;
+    background-color: #0f0f0f;
+    color: #c0c0c3;
+    transition: 0.5s ease;
+  }
+  .login-icon-style, .signin-icon-style {
+    font-size: 18px;
+    margin-left: 12px;
+    position: absolute;
+  }
+  
+  .login-btn, .signin-btn {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4545;
+  }
+  
+  .login-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login-list li {
+    background-color: #252525;
+    border: none;
+    border-radius: 8px;
+    height: 32px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px #0f0f0f, 0px 0px 4px #0f0f0f;
+  }
+  
+  .horizontal-line {
+    border-color: #252525;
+  }
+  .or{
+      color: #c0c0c3;
+      text-align: center;
+  }
+  
