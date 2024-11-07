@@ -9,6 +9,9 @@ const object3DSchema = new mongoose.Schema({
         type: String,
         required: true,
       },
+      mtlPath: {
+        type: String,
+      },
       userId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',

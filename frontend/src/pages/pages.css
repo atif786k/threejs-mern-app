@@ -1,0 +1,44 @@
+.home-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.home-page-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 24px 38px;
+}
+.logo-heading {
+  font-size: 24px;
+}
+.auth-btns {
+  display: flex;
+  align-items: center;
+}
+.home-page-mainContent {
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.mainContent-heading {
+  font-size: 38px;
+  line-height: 50px;
+  cursor: default;
+}
+.mainContent-sub-heading {
+  font-size: 18px;
+  letter-spacing: 0.05rem;
+}
+.btn-span {
+  display: flex;
+  align-items: center;
+}
