@@ -28,17 +28,17 @@ const FileUpload = ({ onSuccess, getObjListFunction }) => {
       getObjListFunction();
       // onSuccess(response.data.fileUrl);
       console.log(response.data); // Later we can use this response to display the object
-      console.log(response.data.fileUrl)
+      console.log(response.data.fileUrl);
     } catch (error) {
       console.error("Error uploading file:", error);
     }
   };
 
   return (
-    <div>
+    <div className="space-y-4">
       <input type="file" accept=".obj,.glb,.mtl" onChange={handleFileChange} />
-      <button onClick={handleUpload} disabled={!file}>
-        Upload 3D Object
+      <button onClick={handleUpload} disabled={!file} className="ui-btn ui-wb">
+        <span>Upload Model</span>
       </button>
     </div>
   );

@@ -1,0 +1,43 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.inner-card {
+  padding: 24px 36px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.inner-card h1 {
+  font-size: 24px;
+}
+.inner-card h4 {
+  font-size: 14px;
+  letter-spacing: 0.08rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-styling {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.input-fields {
+  width: 360px;
+  padding: 14px 14px;
+  background: rgba(0, 0, 0, 0.8);
+  outline: none;
+}
+.display-error{
+    padding: 0px 14px;
+    color: red;
+}

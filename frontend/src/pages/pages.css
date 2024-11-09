@@ -42,3 +42,15 @@
   display: flex;
   align-items: center;
 }
+
+/* ObjectList Page */
+.ModelList-page{
+  padding: 24px 38px;
+}
+.ModelList-page-heading{
+  font-size: 24px;
+}
+
+.viewer-container{
+  padding: 24px 36px;
+}
